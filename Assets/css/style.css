@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #900C3F;
+}
+/*Header*/
+.navbar{
+    top: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-bottom: 5px solid #581845;
+}
+.navLogo{
+    align-self: center;
+}    
+.navbar ul li {
+    margin: 5px;
+    padding: 0;
+    list-style: none;  
+    text-align: center;
+}
+.navbar ul li:hover{
+    background-color: #fbc573;
+    border-radius: 5px;
+}
+.navbar ul li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: left;
+    color: #581845
+}
+.bot0 {
+    position: relative;
+    display: block;
+    }
+.bot0 ul{
+    display: none;
+    position: absolute;
+    margin: 2px;
+    padding: 2px;
+    text-align: start;
+    background-color: #fbc573;
+    }
+.bot0:hover ul{
+    display: flex;
+    flex-direction: column;
+}
+.bot0 ul li:hover{
+    background-color:#c5b8c1 ;
+}
+.redes{ 
+    text-align: center;
+    margin-top: 10px;
+   
+}
+/*Index*/
+.nos{
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    }
+.nosVideo{
+    width: 1000px;
+    border-radius:10px
+}
+.nosText{
+    padding-left: 20px;
+    align-self: center;
+}
+.nosText h2{
+    padding-bottom: 10px;
+    text-emphasis: circle;
+}
+.nosBot {
+    text-align: right;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color: #581845;
+    color: #DAF7A6;
+    padding: 3px;
+    border-radius: 4px;
+    line-height: 50px;
+    }
+.ultCre h2{
+text-emphasis: circle;
+text-align: center;
+margin: 10px;
+}
+.ultCreImg {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.escuela{
+    display: flex;
+    justify-content: space-around;
+}
+.escuelaText {
+    width: 50%;
+    padding: 10px;
+    align-self: center;
+    text-align: right;
+        }
+.escuelaText h2{
+    padding-bottom: 10px;
+    text-emphasis: circle;
+}
+.escuela iframe{
+        border-radius:10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+}
+.escuela a{
+    margin-left: 400px;
+    text-decoration: none;
+    background-color: #581845;
+    color: #DAF7A6;
+    padding: 3px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+}
+/*Footer*/
+footer{
+    background-color: #673F5B;
+    color: #DAF7A6;
+    display: flex;
+    justify-content: space-between
+}
+footer ul{
+    flex-direction: column;
+    list-style: none;
+    margin: 10px;
+}
+footer ul li{ 
+    padding-left: 10px;
+        }
+footer a{
+    text-decoration: none;
+    color: #DAF7A6;
+}
+footer a:hover{
+    background-color: #836a7b;
+}
+footer h5{
+    margin: 10px;
+    color: #DAF7A6;
+}
+.footRedes{
+    padding-right: 40px;
+    margin: 10px;}
+
+/* Contactenos*/
+.cont{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (3, 1fr);
+    grid-template-areas: "contHeader"
+                         "contMain"
+                         "contFoot";
+}
+.contHeader{
+    grid-area: contHeader;
+}
+.contMain{
+    grid-area: contMain;
+    margin-top: 90px;
+    }
+
+.contMain h2{
+    text-align: center;
+}
+.contWhat{
+    display: flex;
+    align-self: center; 
+    padding: 5px;
+    margin: 5px;
+}
+.contWhat img{
+    width: 5%;
+}
+.contWhat h4{
+    align-self: center;
+    margin: 5px;
+}
+.contMail{
+    display: flex;
+    align-self: center; 
+    padding: 5px;
+    margin: 5px;
+}
+.contMail img{
+    width: 5%;
+}
+.contMail h4{
+    align-self: center;
+    margin: 5px;}
+.contForm {
+    background-color: #d1bcca;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+   }
+.contInfo{
+    justify-content: center;
+}
+.contInfo label{
+    padding: 3px;
+}
+
+#coments{
+    
+    width: 85%;
+    height: 70px;
+    justify-content: center;
+    margin: 10px;
+}
+.contBot{
+   width: 130px;
+}
+.contBot input{
+    flex-direction: row;
+}
+.contBot input:hover{
+    background-color: #b49bac;
+    border: none;
+}
+.contFoot{
+    grid-area: contFoot;
+}
+
+/*Escuela*/
+.escuBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (3, 1fr);
+    grid-template-areas: "escuHead"
+                         "escuMain"
+                         "escuFoot";
+}
+.escuHead{
+    grid-area: escuHead;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+
+}
+.escuMain{
+    grid-area: escuMain;
+    margin-top: 100px;
+}
+.escuMain h2{
+    text-align: center;
+}
+.escuCont{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.escuCont p{
+    align-self: center;
+    width: 100%;
+    padding-left: 15px;
+}
+.escuCont img{
+    width: 100%
+}
+.escuMain h3{
+    margin: 10px;
+    font-size: larger;
+}
+.escuForm{
+    background-color: #d1bcca;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    border-radius: 10px;
+    align-items: center;}
+
+.escuForm img{
+   width: 25%;
+   padding: 10px;
+}
+.escuInfo1{
+    display: flex;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.escuInfo1 label{
+    margin-left: 10px;
+
+}
+.escuInfo2{
+    display: flex;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.escuInfo2 label{
+    margin-left: 14px;
+}
+.escuBot{
+    margin-top: 10px;
+
+}
+.escuHora{
+    margin: 10px;
+}
+.escuBot input{
+    margin-left: 5px;
+    width: 110px;
+
+}
+.escuBot input:hover{
+        background-color: #b49bac;
+        border: none;
+}
+.escuFoot{
+    grid-area: escuFoot;
+}
+/*Productos*/
+
+.prodMain h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.prodCont{
+    display: flex;
+    flex-direction: column;
+}
+.prodCont h2{
+    text-align: left;
+    margin-top: 40px;
+}
+/*Nosotros*/
+.nosBody{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (3,1fr);
+    grid-template-areas: "nosHeader"
+                          "nosMain"
+                          "nosFooter";
+}
+.nosHeader{
+    grid-area: nosHeader;
+}
+.nosMain{
+    grid-area: nosMain;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nosMain img{
+    width: 90%;
+    margin: 10px;
+}
+.nosMain h2{
+    text-align: center;
+    text-emphasis: circle;
+}
+
+.nosFooter{
+    grid-area: nosFooter;
+}
+/*/*Nosotros Responsive*/
+    @media (min-width: 992px){
+        .nosHeader{
+            display: flex;
+            position: fixed;
+            width: 100%;
+           }
+      .navbar{
+           
+            flex-direction: row;  
+            justify-content: space-between;      
+            }   
+        
+      .navbar ul {
+          padding: 0;
+          display: flex;
+          list-style: none; 
+            }
+            .navbar ul li a{
+                padding: 5px 5px;
+                text-decoration: none;
+                text-align: left;
+                font-size: 15px;
+            }
+            .bot0 {
+                position: relative;
+                display: block;
+                }
+            .bot0 ul{
+                display: none;
+                position: absolute;
+                margin: 2px;
+                padding: 2px;
+                text-align: start;
+                }
+            .bot0:hover ul{
+                display: block;
+            }
+            .bot0 ul li:hover{
+                background-color:#836a7b ;
+            
+        }
+        .redes{
+            margin-top: auto;
+        }
+      
+        .nosMain{
+            display: flex;
+            margin-top: 200px;
+           
+        }
+        .nosMain h2{
+            justify-content: center;
+                }
+        .nosMain p{
+            margin: 20px;
+        }
+        .nosMain img{
+            width: 50%;
+            margin: 15px;
+        }
+        .nosHisto{
+            display: flex;
+                }
+        .nosPres{
+            display: flex;
+        }
+        .nosFutu{
+            display: flex;
+        }
+
+    }
+    /*Responsive contactenos*/
+    @media (min-width:536px) {
+        .contInfo{
+            width: 60%;
+        }       
+     }
+   @media (min-width:992px) {
+    .contHeader{
+        display: flex;
+        position: fixed;
+        width: 100%;
+       }
+       .contMain{
+        margin-top: 200px;
+       }
+    .contInfo{
+            display: flex;
+            flex-direction:row;
+                  
+        }
+        }
