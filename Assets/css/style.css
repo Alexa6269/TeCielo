@@ -13,6 +13,7 @@
     flex-direction: column;
     background-color: #ffffff;
     border-bottom: 5px solid #581845;
+
 }
 .navLogo{
     align-self: center;
@@ -375,6 +376,7 @@ footer h5{
         .nosHeader{
             display: flex;
             position: fixed;
+            z-index: 10;
             width: 100%;
            }
       .navbar{
