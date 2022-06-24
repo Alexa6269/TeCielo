@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Te Cielo::Home</title>
     <link rel="shortcut icon" href="./Assets/img/LogoCorto.JPG" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar">
             <div class="navLogo">
-                <a href="./index.html"><img src="./Assets/img/Logo.png" alt=""></a>
+                <a href="./index.html"><img src="./Assets/img/Logo.jpg" alt=""></a>
                 
             </div>
             <div>
@@ -42,20 +43,15 @@
             </div>
         </nav>
     </header>
-    <main class="index">
-        <div class="nos">
-            <iframe class="nosVideo" width="560" height="315" src="https://www.youtube.com/embed/ZSQ-0EZS5w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="nosText">
-                <h2>Sobre nosotros</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nostrum recusandae, itaque, deleniti nemo, pariatur in obcaecati illum laborum deserunt dolore vitae sapiente vero. Mollitia nulla eaque explicabo esse dolores!</p>
-                <a class="nosBot" href="./Pages/Nosotros.html">Conoce más de nosotros</a>
-            </div>
-         </div>
+    <main class="index" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0">
         <div class="ultCre">
             <div>
                 <h2>Últimas creaciones</h2>
             </div>
-            <div class="ultCreImg">
+            <div class="ultCreImg" >
                 <div>
                 <img src="./Assets/img/UltCre1.jpg" alt=""> 
                 </div>
@@ -67,6 +63,15 @@
                 </div>
             </div>
         </div>
+        <div class="nos">
+            <iframe class="nosVideo" width="560" height="315" src="https://www.youtube.com/embed/ZSQ-0EZS5w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="nosText">
+                <h2>Sobre nosotros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nostrum recusandae, itaque, deleniti nemo, pariatur in obcaecati illum laborum deserunt dolore vitae sapiente vero. Mollitia nulla eaque explicabo esse dolores!</p>
+                <a class="nosBot" href="./Pages/Nosotros.html">Ver más</a>
+            </div>
+         </div>
+       
         <div class="escuela">
             <div class="escuelaText">
                 <h2>Haz tus propias creaciones con nosotros</h2>
@@ -97,5 +102,9 @@
             
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
