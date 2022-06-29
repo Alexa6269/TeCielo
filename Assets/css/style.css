@@ -7,19 +7,11 @@
 }
 /*Header*/
 .navbar{
-    top: 0;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
     background-color: #ffffff;
-    border-bottom: 5px solid #581845;
+    border-bottom: 3px solid #581845;
 
-}
-.navLogo{
-    align-self: center;
 }    
 .navbar ul li {
-    margin: 5px;
     padding: 0;
     list-style: none;  
     text-align: center;
@@ -33,32 +25,27 @@
     text-decoration: none;
     text-align: left;
     color: #581845
+ 
 }
-.bot0 {
-    position: relative;
-    display: block;
-    }
-.bot0 ul{
-    display: none;
-    position: absolute;
-    margin: 2px;
-    padding: 2px;
-    text-align: start;
+.navbar ul li a:hover{
     background-color: #fbc573;
-    }
-.bot0:hover ul{
-    display: flex;
-    flex-direction: column;
+    border-radius: 5px;
 }
-.bot0 ul li:hover{
-    background-color:#c5b8c1 ;
-}
-.redes{ 
-    text-align: center;
-    margin-top: 10px;
-   
-}
+
 /*Index*/
+.carousel-control-prev{
+    background-color: #581845;
+    width: auto;
+}
+.carousel-control-next{
+    background-color: #581845;
+    width: auto;
+}
+.creText{
+    padding-bottom: 10px;
+    text-emphasis: circle;
+    text-align: center;
+}
 .nos{
     margin-top: 50px;
     display: flex;
@@ -84,22 +71,8 @@
     color: #DAF7A6;
     padding: 3px;
     border-radius: 4px;
-    line-height: 50px;
-    
-    
- 
-}
-.ultCre h2{
-text-emphasis: circle;
-text-align: center;
-margin: 10px;
-}
-.ultCreImg {
-    display: flex;
-    justify-content:space-around;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+    line-height: 50px;}
+
 .escuela{
     display: flex;
     justify-content: space-around;
@@ -160,22 +133,6 @@ footer h5{
     margin: 10px;}
 
 /* Contactenos*/
-.cont{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: (3, 1fr);
-    grid-template-areas: "contHeader"
-                         "contMain"
-                         "contFoot";
-}
-.contHeader{
-    grid-area: contHeader;
-}
-.contMain{
-    grid-area: contMain;
-    margin-top: 90px;
-    }
-
 .contMain h2{
     text-align: center;
 }
@@ -241,23 +198,15 @@ footer h5{
 }
 
 /*Escuela*/
-.escuBody{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: (3, 1fr);
-    grid-template-areas: "escuHead"
-                         "escuMain"
-                         "escuFoot";
-}
 .escuHead{
-    grid-area: escuHead;
+   
     position: fixed;
     width: 100%;
     height: 75px;
 
 }
 .escuMain{
-    grid-area: escuMain;
+    
     margin-top: 100px;
 }
 .escuMain h2{
@@ -345,19 +294,7 @@ footer h5{
     margin-top: 40px;
 }
 /*Nosotros*/
-.nosBody{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: (3,1fr);
-    grid-template-areas: "nosHeader"
-                          "nosMain"
-                          "nosFooter";
-}
-.nosHeader{
-    grid-area: nosHeader;
-}
 .nosMain{
-    grid-area: nosMain;
     display: flex;
     flex-direction: column;
     
@@ -371,62 +308,10 @@ footer h5{
     text-emphasis: circle;
 }
 
-.nosFooter{
-    grid-area: nosFooter;
-}
 /*/*Nosotros Responsive*/
     @media (min-width: 992px){
-        .nosHeader{
-            display: flex;
-            position: fixed;
-            z-index: 10;
-            width: 100%;
-           }
-      .navbar{
            
-            flex-direction: row;  
-            justify-content: space-between;      
-            }   
-        
-      .navbar ul {
-          padding: 0;
-          display: flex;
-          list-style: none; 
-            }
-            .navbar ul li a{
-                padding: 5px 5px;
-                text-decoration: none;
-                text-align: left;
-                font-size: 15px;
-            }
-            .bot0 {
-                position: relative;
-                display: block;
-                }
-            .bot0 ul{
-                display: none;
-                position: absolute;
-                margin: 2px;
-                padding: 2px;
-                text-align: start;
-                }
-            .bot0:hover ul{
-                display: block;
-            }
-            .bot0 ul li:hover{
-                background-color:#836a7b ;
-            
-        }
-        .redes{
-            margin-top: auto;
-        }
-      
-        .nosMain{
-            display: flex;
-            margin-top: 200px;
-           
-        }
-        .nosMain h2{
+            .nosMain h2{
             justify-content: center;
                 }
         .nosMain p{
@@ -448,23 +333,14 @@ footer h5{
 
     }
     /*Responsive contactenos*/
-    @media (min-width:536px) {
-        .contInfo{
-            width: 60%;
-        }       
-     }
    @media (min-width:992px) {
-    .contHeader{
-        display: flex;
-        position: fixed;
-        width: 100%;
-       }
-       .contMain{
-        margin-top: 200px;
-       }
-    .contInfo{
+        .contInfo{
             display: flex;
-            flex-direction:row;
-                  
+            flex-direction:row;       
+        } 
+        .indexImg1{
+            margin-left: 8%;  
         }
-        }
+
+    }
+

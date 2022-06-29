@@ -5,38 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Te Cielo::Escuela</title>
-    <link rel="shortcut icon" href="../Assets/img/LogoCorto.JPG" type="image/x-icon">
+    <link rel="shortcut icon" href="./Assets/img/LogoCorto.JPG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../Assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 </head>
 <body class="escuBody">
     <header class="escuHead">
-        <nav class="navbar">
-            <div class="navLogo">
-                <a href="../index.html"><img src="../Assets/img/Logo.png" alt=""></a>
+        <nav class="navbar navbar-expand-lg bg-micolor">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="../Assets/img/Logo.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="../index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          TeCielo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="../Pages/Nosotros.html">Sobre nosotros</a></li>
+                          <li><a class="dropdown-item" href="../Pages/contactanos.html">Contáctanos</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../Pages/Productos.html#anillos">Anillos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/Productos.html#aretes">Aretes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/Productos.html#collares">Collares y dijes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Pages/Escuela.html">Nuestra escuela</a>
+                  </li>
+                 
+                </ul>
+              </div>
             </div>
-            <div>
-                <ul>
-                    <li class="bot0"><a href="../index.html">Te Cielo</a>
-                        <ul>
-                            <li class="bot0.1"><a href="../Pages/Nosotros.html">Sobre nosotros</a></li>
-                            <li class="bot0.2"><a href="../Pages/Contactanos.html">Contáctanos</a></li>
-                        </ul> 
-                    </li> 
-                    <li><a href="../Pages/Productos.html#anillos">Anillos</a></li>
-                    <li><a href="../Pages/Productos.html#pulseras">Pulseras</a></li>
-                    <li><a href="../Pages/Productos.html#aretes">Aretes</a></li>
-                    <li><a href="../Pages/Productos.html#collares">Collares y dijes</a></li>
-                    <li><a href="../Pages/Escuela.html">Nuestra escuela</a></li> 
-                </ul>  
-            </div> 
-            <div class="redes">
-                <img src="../Assets/img/whats.png" alt="">
-                <img src="../Assets/img/face-01.png" alt="">
-                <img src="../Assets/img/insta-01.png" alt="">
-                <img src="../Assets/img/carrito.png" alt="">
-            </div>
-        </nav>           
+          </nav>
     </header>
     <main class="escuMain">
         <div>
@@ -102,6 +114,11 @@
             
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
