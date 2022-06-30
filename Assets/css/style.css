@@ -135,6 +135,7 @@ footer h5{
 /* Contactenos*/
 .contMain h2{
     text-align: center;
+    margin: 5px;
 }
 .contWhat{
     display: flex;
@@ -143,7 +144,7 @@ footer h5{
     margin: 5px;
 }
 .contWhat img{
-    width: 5%;
+    width: 3%;
 }
 .contWhat h4{
     align-self: center;
@@ -156,17 +157,14 @@ footer h5{
     margin: 5px;
 }
 .contMail img{
-    width: 5%;
+    width: 3%;
 }
 .contMail h4{
     align-self: center;
     margin: 5px;}
 .contForm {
     background-color: #d1bcca;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 10px;
+    width: 60%;
     border-radius: 10px;
    }
 .contInfo{
@@ -186,17 +184,14 @@ footer h5{
 .contBot{
    width: 130px;
 }
-.contBot input{
-    flex-direction: row;
-}
 .contBot input:hover{
     background-color: #b49bac;
     border: none;
 }
-.contFoot{
-    grid-area: contFoot;
+.form-floating{
+    width:80%;
+    
 }
-
 /*Escuela*/
 .escuHead{
    
@@ -284,10 +279,7 @@ footer h5{
 .prodMain h2{
     text-align: center;
     margin-bottom: 10px;
-}
-.prodCont{
-    display: flex;
-    flex-direction: column;
+
 }
 .prodCont h2{
     text-align: left;
@@ -308,7 +300,7 @@ footer h5{
     text-emphasis: circle;
 }
 
-/*/*Nosotros Responsive*/
+/* Responsive*/
     @media (min-width: 992px){
            
             .nosMain h2{
@@ -330,10 +322,6 @@ footer h5{
         .nosFutu{
             display: flex;
         }
-
-    }
-    /*Responsive contactenos*/
-   @media (min-width:992px) {
         .contInfo{
             display: flex;
             flex-direction:row;       

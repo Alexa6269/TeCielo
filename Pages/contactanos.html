@@ -61,24 +61,31 @@
             <h4>e-mail: jflj@kdjf.com</h4>
         </div>
         <h2>O nosotros te contactamos, solo envíanos tus datos</h4>
-        <div class="contForm">
-            <form action="Contacto" method="get"target="_blank" class="row g-3">
-                <div class="col-md-6">
+        <div class="contForm row mt-2 ms-2 mb-5 pb-2">
+            <form action="Contacto" method="get"target="_blank" class="row g-3 justify-content-center">
+                <div class="col-md-5 ms-2">
                   <label for="inputName" class="form-label">Nombre</label>
                   <input type="text" class="form-control" id="inputName" placeholder="Nombre" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                   <label for="inputLastName" class="form-label">Apellido</label>
                   <input type="text" class="form-control" id="inputLastName" placeholder="Apellido" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5 ms-2">
                   <label for="inputEmail" class="form-label">Correo</label>
                   <input type="email" class="form-control" id="inputEmail" placeholder="Correo" required>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                   <label for="inputCel" class="form-label">Número de contacto</label>
                   <input type="text" class="form-control" id="inputCel" placeholder="Contacto" required>
                 </div>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Mensaje</label>
+                </div>
+                  <input class="w-25 me-2" type="submit" value="Enviar">
+                  <input class="w-25" type="reset" value="Limpiar">
+        
                 
              </form>
         </div>
