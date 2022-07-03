@@ -50,51 +50,74 @@
             </div>
           </nav>
     </header>
-    <main class="escuMain">
+    <main class="conteiner escuMain">
         <div>
             <h2>Aprende con nosotros a hacer tus creaciones</h2>
             <div class="escuCont">
-                <img src="../Assets/img/Escuela.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam quaerat totam mollitia. Sequi aspernatur tempora aut aperiam in amet ipsum odio, hic nobis saepe odit, delectus, iure voluptatibus culpa.</p>
-            </div>
-            <h3>¡Programa tu clase y manos a la obra!</h3>
-            <div class="escuForm">
-                <img src="../Assets/img/escuForm.png" alt="">
-                <div class="clase">
-                    <form action ="clase" method="get" target="_blank"> 
-                        <div class="escuInput">             
-                            <div class="escuInfo1">
-                                <label for="nombre">Nombre</label>
-                                <input type ="text" name="Nombre" id="nombre"placeholder="Nombre"required>
-                                <label for="apellido">Apellido</label>
-                                <input type ="text" name="Apellido" id="apellido"placeholder="Apellido"required>
-                            </div>
-                            <div class="escuInfo2" >
-                                <label for="e-mail">Correo</label>
-                                <input type ="email" name="e-mail" id="e-mail"placeholder="E-mail"required>
-                                <label for="phone">Teléfono</label>
-                                <input type="tel" name="phone" id="phone"placeholder="Teléfono"required>
-                            </div>
-                            <div class="escuHora">
-                                <label for="horario">Horario disponible entre semana</label><br>
-                                <input type="radio" name="horario" id="HMañana">
-                                <label for="Hmañana">9am-11am</label>
-                                <input type="radio" name="horario" id="HTarde">
-                                <label for="HTarde">5pm-7pm</label>
-                                <input type="radio" name="horario" id="HOtro">
-                                <label for="HOtro">Necesito otro horario</label>
-                                <br>
-                                <input type="checkbox" name="ttodatos" id="ttodatos" required>
-                                <label for="ttodatos">Acepta términos y condiciones de tratamiento de datos</label>
-                            </div>
-                        </div>
-                        <div class="escuBot">
-                            <input type="submit" value="Enviar">
-                            <input type="reset" value="Limpiar">
-                        </div>
-                    </form>        
+               <div class="row">
+                  <div class="col-md-7">
+                    <img src="../Assets/img/Escuela.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-5  align-self-center">
+                      <h5>Con nuestras clases podrás realizar las creaciones que quieras, sean tuyas o nuestras, y nosotros te enseñamos a materializarla. </h5>
+                      <h5>Todas nuestras clases tienen el mismo precio, sin embargo la cantidad de clases depende de la complejidad de tu creación pues puede requerir más de una sesión o más materiales.</h5>
+                      <h5 class="text-muted">El precio incluye el miyuki y el hilo</h5>
+                  </div>
                 </div>
-            </div>
+              </div>
+            <h3>¡Programa tu clase y manos a la obra!</h3>
+            <div class="escuForm ms-4">
+                <div class="row mt-2 ms-2 mb-5 pb-2 justify-content-center">
+                  <form action="Contacto" method="get"target="_blank" class="row g-3">
+                      <div class="col-md-5">
+                        <label for="inputName" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Nombre" required>
+                      </div>
+                      <div class="col-md-5">
+                        <label for="inputLastName" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Apellido" required>
+                      </div>
+                      <div class="col-md-5">
+                        <label for="inputEmail" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Correo" required>
+                      </div>
+                      <div class="col-md-5">
+                        <label for="inputCel" class="form-label">Número de contacto</label>
+                        <input type="text" class="form-control" id="inputCel" placeholder="Contacto" required>
+                      </div>
+                      <fieldset class="row mb-3 mt-3">
+                        <div class="col-md-12 justify-content-center">
+                        <legend>Horario disponible</legend>
+                      </div>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              9am-11am
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              4pm-6pm
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                            <label class="form-check-label" for="gridRadios3">
+                              Fines de semana
+                            </label>
+                          </div>
+                        </div>
+                      </fieldset>
+                        <input class="w-25 me-2" type="submit" value="Enviar">
+                        <input class="w-25" type="reset" value="Limpiar">
+              
+                      
+                   </form>
+              </div>
+          </div>
+        
 
     </main>
    
