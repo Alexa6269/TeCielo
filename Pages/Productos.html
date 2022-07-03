@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Te Cielo::Creaciones</title>
     <link rel="shortcut icon" href="./Assets/img/LogoCorto.JPG" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../Assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,91 +51,112 @@
             </div>
           </nav>
     </header>
-    <main class="prodMain">
+    <main class="conteiner prodMain">
         <div>
             <h2>Nuestras creaciones</h2>
+            <h5>(Los colores son personalizables, pregunta <a href="./contactanos.html">aquí</a> por nuestro catálogo de colores)</h5>
         </div>
         <div class="prodCont">
-            <div>
-                <div>
-                  <h2 class="row"><Anillos id="anillos">Anillos</Anillos></h2>
-                </div>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active d-flex ms-5">
-                      <div class="card-body w-25">
-                        <img src="../Assets/img/Ani1.jpg" class="cardImg1 " alt="...">
-                        <h5 class="card-title">Anillo punteado</h5>
+          <h2><Anillos id="anillos">Anillos</Anillos></h2>
+              <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4 justify-content-between">
+                  <div class="col-ms-12 col-md-3">
+                    <div class="cardAni">
+                      <img src="../Assets/img/Ani1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Anillos cruzados (2)</h5>
                         <p class="card-text">$45.000</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>  
-                      </div>  
-                        <div class="card-body w-25">
-                          <img src="../Assets/img/Ani2.jpg" class="cardImg1 " alt="...">
-                          <h5 class="card-title">Anillo estrellado</h5>
-                          <p class="card-text">$45.000</p>
-                          <a href="#" class="btn btn-primary">Comprar</a>  
-                        </div>
-                        <div class="card-body w-25">
-                          <img src="../Assets/img/Ani3.jpg" class="cardImg1 " alt="...">
-                          <h5 class="card-title">Anillo turco</h5>
-                          <p class="card-text">$45.000</p>
-                          <a href="#" class="btn btn-primary">Comprar</a>  
-                        </div>  
+                        <a href="#" class="btn btn-primary">Comprar</a>
                       </div>
-                    <div class="carousel-item d-flex ms-5" data-slide-to="2"> 
-                      <div class="card-body w-25">
-                        <img src="../Assets/img/Ani1.jpg" class="cardImg1 " alt="...">
-                        <h5 class="card-title">Anillo punteado</h5>
-                        <p class="card-text">$45.000</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>  
-                      </div>  
-                        <div class="card-body w-25">
-                          <img src="../Assets/img/Ani2.jpg" class="cardImg1 " alt="...">
-                          <h5 class="card-title">Anillo estrellado</h5>
-                          <p class="card-text">$45.000</p>
-                          <a href="#" class="btn btn-primary">Comprar</a>  
-                        </div>
-                        <div class="card-body w-25">
-                          <img src="../Assets/img/Ani3.jpg" class="cardImg1 " alt="...">
-                          <h5 class="card-title">Anillo turco</h5>
-                          <p class="card-text">$45.000</p>
-                          <a href="#" class="btn btn-primary">Comprar</a>  
-                        </div>  
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <div class="col-ms-12 col-md-3">
+                    <div class="cardAni">
+                      <img src="../Assets/img/Ani2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Anillo estrellado</h5>
+                        <p class="card-text">$45.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-ms-12 col-md-3">
+                    <div class="cardAni">
+                      <img src="../Assets/img/Ani3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Anillos ojo turco (2)</h5>
+                        <p class="card-text">$50.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                
-              
-            <div>
-                <h2><Pulseras id="pulseras">Pulseras</Pulseras></h2>
-                <img src="../Assets/img/Pulse1.JPG" alt="">
-                <img src="../Assets/img/Pulse2.JPG" alt="">
-                <img src="../Assets/img/Pulse3.JPG" alt="">
-            </div>
-            <div>
-                <h2><Aretes id="aretes">Aretes</Aretes></h2>
-                <img src="../Assets/img/Aret1.JPG" alt="">
-                <img src="../Assets/img/Aret2.JPG" alt="">
-                <img src="../Assets/img/Aret3.JPG" alt="">
-            </div>
-            <div>
+            <h2><Aretes id="aretes">Aretes</Aretes></h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4 justify-content-between">
+                  <div class="col-ms-12 col-md-3">
+                    <div class="cardAre">
+                      <img src="../Assets/img/Aret1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Aretes cruzados</h5>
+                        <p class="card-text">$45.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-ms-12 col-md-3">
+                    <div class="cardAre">
+                      <img src="../Assets/img/Aret2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Aretes maulladores</h5>
+                        <p class="card-text">$45.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-ms-12 col-md-3">
+                    <div class="cardAre">
+                      <img src="../Assets/img/Aret3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Aretes cascada</h5>
+                        <p class="card-text">$50.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <h2><Collares id="collares">Collares y dijes</Collares></h2>
-                <img src="../Assets/img/Coll1.JPG" alt="">
-                <img src="../Assets/img/Coll2.JPG" alt="">
-                <img src="../Assets/img/Coll3.JPG" alt="">
-            </div>
+                  <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4 mb-2 justify-content-between">
+                    <div class="col-ms-12 col-md-3">
+                      <div class="cardColl">
+                        <img src="../Assets/img/Coll1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Collar mariposa</h5>
+                          <p class="card-text">$35.000</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-ms-12 col-md-3">
+                      <div class="cardColl">
+                        <img src="../Assets/img/Coll2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Aretes y collar mininos</h5>
+                          <p class="card-text">$70.000</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-ms-12 col-md-3">
+                      <div class="cardColl">
+                        <img src="../Assets/img/Coll3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Collar tribu</h5>
+                          <p class="card-text">$50.000</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
         </div>
 
     </main>
