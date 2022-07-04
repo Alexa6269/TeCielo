@@ -1,0 +1,307 @@
+
+*{
+    @import "variables.scss";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    color: $colorLetra;
+
+/*Header*/
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 3px solid $colorPrincipal;
+    ul li {
+        padding: 0;
+        list-style: none;  
+        text-align: center;
+        &:hover{
+            background-color: #fbc573;
+            border-radius: 5px;          
+    }
+    a{
+        padding: 10px 10px;
+        text-decoration: none;
+        text-align: left;
+        color:$colorLetra;
+        &:hover{
+            background-color: #fbc573;
+            border-radius: 5px;
+            }
+     
+        }
+    }    
+}
+
+/*Index*/
+.carousel-control-prev{
+    background-color: $colorPrincipal;
+    width: auto;
+}
+.carousel-control-next{
+    background-color:$colorPrincipal;
+    width: auto;
+}
+.creText{
+    padding-bottom: 10px;
+    text-emphasis: circle;
+    text-align: center;
+}
+.nos{
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    }
+
+.nosText h2{
+    padding-bottom: 10px;
+    text-emphasis: circle;
+}
+.fraseFrida{
+    font-style: italic;
+}
+
+.nosBot {
+    text-align: right;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color:$colorBtn;
+    color: #DAF7A6;
+    padding: 3px;
+    border-radius: 4px;
+    line-height: 50px;
+    &:hover{
+        color: #DAF7A6;
+        font-weight: bold;
+        background-color: $colorPrincipal
+    }
+}
+
+
+.escuelaText h2{
+    padding-bottom: 10px;
+    text-emphasis: circle;
+}
+
+.escuelaBot {
+    text-align: right;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color:$colorBtn;
+    color: #DAF7A6;
+    padding: 3px;
+    border-radius: 4px;
+    line-height: 50px;
+    &:hover{
+        color: #DAF7A6;
+        font-weight: bold;
+        background-color: $colorPrincipal
+    }
+}
+/*Footer*/
+footer{
+    background-color: #673F5B;
+    color: #DAF7A6;
+    display: flex;
+    justify-content: space-between
+}
+footer ul{
+    flex-direction: column;
+    list-style: none;
+    margin: 10px;
+}
+footer ul li{ 
+    padding-left: 10px;
+        }
+footer a{
+    text-decoration: none;
+    color: #DAF7A6;
+}
+footer a:hover{
+    background-color: #836a7b;
+    color: #DAF7A6;
+    font-weight: bold;
+}
+footer p{
+    margin: 10px;
+    color: #DAF7A6;
+}
+.footRedes{
+    padding-right: 40px;
+    margin: 10px;}
+
+/* Contactenos*/
+.contMain h2{
+    text-align: center;
+    margin: 5px;
+}
+.contWhat{
+    display: flex;
+    align-self: center; 
+    padding: 5px;
+    margin: 10px;
+}
+.contWhat img{
+    width: 3%;
+}
+.contWhat h4{
+    align-self: center;
+    margin: 5px;
+}
+.contMail{
+    display: flex;
+    align-self: center; 
+    padding: 5px;
+    margin: 10px;
+}
+.contMail img{
+    width: 3%;
+}
+.contMail h4{
+    align-self: center;
+    margin: 5px;}
+.contForm {
+    background-color: #d1bcca;
+    width: 60%;
+    border-radius: 10px;
+   }
+.contInfo{
+    justify-content: center;
+}
+.contInfo label{
+    padding: 3px;
+}
+
+#coments{
+    
+    width: 85%;
+    height: 70px;
+    justify-content: center;
+    margin: 10px;
+
+}
+.contBot input:hover{
+    background-color: #b49bac;
+    border: none;
+}
+.form-floating{
+    width:80%;
+    
+}
+/*Escuela*/
+
+.escuMain h2{
+    text-align: center;
+    text-emphasis: circle;
+}
+.escuCont{
+    margin: 10px;
+    padding: 10px;
+}
+.escuCont p{
+    align-self: center;
+    width: 100%;
+    padding-left: 15px;
+}
+.escuCont img{
+    width: 100%
+}
+.escuMain h3{
+    margin: 10px;
+    text-emphasis: circle;
+    text-align: center;
+}
+.escuForm{
+    background-color: #d1bcca;
+    width: 75%;
+    border-radius: 10px;}
+
+.escuBot{
+    margin-top: 10px;
+}
+.escuBot input{
+    margin-left: 5px;
+
+}
+.escuBot input:hover{
+        background-color: #b49bac;
+        border: none;
+}
+/*Productos*/
+
+.prodMain h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-emphasis: circle;
+
+}
+.prodCont h2{
+    text-align: left;
+    margin-top: 40px;
+}
+.btn {
+    background-color: #673F5B;
+    color: #DAF7A6;
+    border: none;
+}
+.btn:hover{
+    background-color: #836a7b;
+}
+.prodMain h5{
+    text-align: center;
+    font-style: italic;
+}
+.prodMain h5 a{
+    text-decoration: none;
+    color: #581845;
+    font-weight: bold;
+
+}
+
+/*Nosotros*/
+
+.nosMain h2{
+    text-align: center;
+    text-emphasis: circle;
+}
+
+/* Responsive*/
+    @media (min-width: 992px){
+           
+            .nosMain h2{
+            justify-content: center;
+                }
+        .nosMain p{
+            margin: 20px;
+        }
+        
+        .nosPres{
+            display: flex;
+        }
+        .nosFutu{
+            display: flex;
+        }
+        .contInfo{
+            display: flex;
+            flex-direction:row;       
+        } 
+        .indexImg1{
+            margin-left: 8%;  
+        }
+        .carouselProd1{
+            justify-content: space-evenly;
+        }
+    }
+@media (max-width:992px) {
+    
+    .contWhat img{
+        width: 5%;
+        margin-left: 5px;
+
+    }
+    .contMail img{
+        width: 5%;
+        margin-left: 5px;
+    }
+}
+}    
