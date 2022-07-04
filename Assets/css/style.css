@@ -51,14 +51,7 @@
     display: flex;
     padding: 10px;
     }
-.nosVideo{
-    width: 1000px;
-    border-radius:10px
-}
-.nosText{
-    padding-left: 20px;
-    align-self: center;
-}
+
 .nosText h2{
     padding-bottom: 10px;
     text-emphasis: circle;
@@ -77,34 +70,21 @@
     border-radius: 4px;
     line-height: 50px;}
 
-.escuela{
-    display: flex;
-    justify-content: space-around;
-}
-.escuelaText {
-    width: 50%;
-    padding: 10px;
-    align-self: center;
-    text-align: right;
-        }
+
 .escuelaText h2{
     padding-bottom: 10px;
     text-emphasis: circle;
 }
-.escuela iframe{
-        border-radius:10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-}
-.escuela a{
-    margin-left: 400px;
+
+.escuelaBot{
+    text-align: right;
+    padding-bottom: 10px;
     text-decoration: none;
     background-color: #581845;
     color: #DAF7A6;
     padding: 3px;
     border-radius: 4px;
     line-height: 50px;
-    text-align: center;
 }
 /*Footer*/
 footer{
@@ -128,7 +108,7 @@ footer a{
 footer a:hover{
     background-color: #836a7b;
 }
-footer h5{
+footer p{
     margin: 10px;
     color: #DAF7A6;
 }
