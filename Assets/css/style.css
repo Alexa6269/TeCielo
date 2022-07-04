@@ -63,6 +63,10 @@
     padding-bottom: 10px;
     text-emphasis: circle;
 }
+.fraseFrida{
+    font-style: italic;
+}
+
 .nosBot {
     text-align: right;
     padding-bottom: 10px;
@@ -263,15 +267,7 @@ footer h5{
 }
 
 /*Nosotros*/
-.nosMain{
-    display: flex;
-    flex-direction: column;
-    
-}
-.nosMain img{
-    width: 90%;
-    margin: 10px;
-}
+
 .nosMain h2{
     text-align: center;
     text-emphasis: circle;
@@ -286,13 +282,7 @@ footer h5{
         .nosMain p{
             margin: 20px;
         }
-        .nosMain img{
-            width: 50%;
-            margin: 15px;
-        }
-        .nosHisto{
-            display: flex;
-                }
+        
         .nosPres{
             display: flex;
         }
