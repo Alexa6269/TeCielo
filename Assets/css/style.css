@@ -79,7 +79,7 @@
       font-weight: bold;
       background-color: #581845; }
   * footer {
-    background-color: #673F5B;
+    background-color: #581845;
     color: #DAF7A6;
     display: flex;
     justify-content: space-between; }
@@ -87,16 +87,16 @@
     flex-direction: column;
     list-style: none;
     margin: 10px; }
-  * footer ul li {
-    padding-left: 10px; }
+    * footer ul li {
+      padding-left: 10px; }
   * footer a {
     text-decoration: none;
     color: #DAF7A6; }
-  * footer a:hover {
-    background-color: #836a7b;
-    color: #DAF7A6;
-    font-weight: bold; }
-  * footer p {
+    * footer a:hover {
+      background-color: #836a7b;
+      color: #DAF7A6;
+      font-weight: bold; }
+  * .footAct {
     margin: 10px;
     color: #DAF7A6; }
   * .footRedes {
@@ -110,8 +110,8 @@
     align-self: center;
     padding: 5px;
     margin: 10px; }
-  * .contWhat img {
-    width: 3%; }
+    * .contWhat img {
+      width: 3%; }
   * .contWhat h4 {
     align-self: center;
     margin: 5px; }
@@ -138,6 +138,8 @@
     height: 70px;
     justify-content: center;
     margin: 10px; }
+  * .inicioContForm {
+    justify-content: center; }
   * .contBot input:hover {
     background-color: #b49bac;
     border: none; }
