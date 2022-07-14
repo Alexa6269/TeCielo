@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/issues</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/pulls</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/projects?type=beta</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/security</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/d7cafa07780233b68bc0ea67c249da481fcc6abf</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/15ac2c2aff630b8977d96ee123776ec190ac09b8</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/master/.gitignore</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/6353acb72cd6f2e76fb74e7945b2648a6feec072</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/master/index.html</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/master/package-lock.json</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/master/package.json</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/releases</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/compare</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2668392025</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2626641580</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2612665207</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2611019873</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2607600488</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2607482637</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/projects?type=classic</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/security/policy</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/security/advisories</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/7f55d1d484f24c38744b2071bba7499901f98c5a</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/d7cafa07780233b68bc0ea67c249da481fcc6abf/.gitignore</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/find/master</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/25325403336c9505a0865aaca157bd629bee09e9</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/d7cafa07780233b68bc0ea67c249da481fcc6abf/index.html</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/d7cafa07780233b68bc0ea67c249da481fcc6abf/package-lock.json</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/blob/d7cafa07780233b68bc0ea67c249da481fcc6abf/package.json</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels?sort=name-asc</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels?sort=name-desc</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels?sort=count-desc</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels?sort=count-asc</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/bug</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/documentation</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/duplicate</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/enhancement</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/good%20first%20issue</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/help%20wanted</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/invalid</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/question</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/labels/wontfix</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7334712428?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7334721248?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7334721156?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2668392025/usage</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7225610374?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7225617054?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7225616933?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2626641580/usage</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7187424379?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7187429802?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7187429728?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/f8844cfd9d803a7b147ca57a93418670494773da</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2612665207/usage</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7183207410?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7183215966?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7183215845?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/8f4bad6ce3a0472ee463d933b06a130ed65fe0a1</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2611019873/usage</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7173952440?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7173957380?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7173957246?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2607600488/usage</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7173658585?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7173663233?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/runs/7173663276?check_suite_focus=true</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/7dffea9def65841922a3e6d4d19e9c726e560cf4</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/actions/runs/2607482637/usage</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/security/advisories?state=published</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/find/d7cafa07780233b68bc0ea67c249da481fcc6abf</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/bf723f1ed6f3503f1c8078914915af229b272dd3</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/5cffc61cbb6853ad42fb324df488976a906db6ce</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/9dab8df4bfa42fa0dd77d6dae2c16d9ec4947b88</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/a0d24a269841f629d2d5784823348d2c397b39ae</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/0bbec14cfa954b7905d0f5ee1ed4ffe29bdf33a9</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/b6d39c39a205f66a28113dbfb63b7ea222d22190</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/d05d5f3b81ba1d11752e4b6c0a702a28c87419f0</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/3eac383aaa091c47bf9bfdcc4d8c2ea03694f88a</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/4b4a127b672eaec7d28f5f69411391b77da98756</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/Alexa6269/TeCielo/commit/e2ab4fe203e85b496e3d64a840f152f42de371ed</loc>
+  <lastmod>2022-07-14T06:32:13+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+
+
+</urlset>
