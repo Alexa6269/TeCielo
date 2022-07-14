@@ -1,0 +1,20 @@
+.btn{
+    padding: map-get($btnProp, pad);
+    border: map-get($btnProp,borde);
+    border-radius: map-get($btnProp,radio);
+    text-align: map-get($btnProp,text-align);
+    text-decoration: map-get($btnProp,textdec);
+    font-weight: map-get($btnProp,negrita);
+        
+    } 
+@each $typ,$bC in $btnColores{
+    .btn-#{$typ} {
+        background-color: $bC;
+        @extend .btn;
+        &:hover{
+            color: #DAF7A6;
+            font-weight: bold;
+            background-color: $colorPrincipal
+        }
+    }
+    }

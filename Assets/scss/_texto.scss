@@ -1,0 +1,9 @@
+@mixin texto($pb,$enfasis,$align,$color){
+    padding-bottom: $pb;
+    text-emphasis: $enfasis;
+    text-align: $align;
+    color:$color
+    }
+.titulo{
+    @include texto(10px,circle,center,$colorTitulo)
+    }

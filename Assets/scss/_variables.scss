@@ -1,3 +1,18 @@
 $colorLetra:#900C3F;
+$colorTitulo:#880b3b;
 $colorPrincipal:#581845;
 $colorBtn:#673F5B;
+$btnColores:(
+    link:$colorBtn,
+    shop:$colorBtn,
+    submit:#fde9a7,
+); 
+$btnProp:(
+    pad: 5px,
+    borde:0,
+    radio:5px,
+    textdec:none,
+    text-align: right,
+    text-decoration: none,
+    negrita: 50px,
+    );

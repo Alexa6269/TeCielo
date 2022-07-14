@@ -12,6 +12,36 @@
   /*Productos*/
   /*Nosotros*/
   /* Responsive*/ }
+  * .titulo {
+    padding-bottom: 10px;
+    text-emphasis: circle;
+    text-align: center;
+    color: #880b3b; }
+  * .btn, * .btn-link, * .btn-shop, * .btn-submit {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    text-align: right;
+    text-decoration: none;
+    font-weight: 50px; }
+  * .btn-link {
+    background-color: #673F5B; }
+    * .btn-link:hover {
+      color: #DAF7A6;
+      font-weight: bold;
+      background-color: #581845; }
+  * .btn-shop {
+    background-color: #673F5B; }
+    * .btn-shop:hover {
+      color: #DAF7A6;
+      font-weight: bold;
+      background-color: #581845; }
+  * .btn-submit {
+    background-color: #fde9a7; }
+    * .btn-submit:hover {
+      color: #DAF7A6;
+      font-weight: bold;
+      background-color: #581845; }
   * .navbar {
     background-color: #ffffff;
     border-bottom: 3px solid #581845; }
@@ -36,48 +66,12 @@
   * .carousel-control-next {
     background-color: #581845;
     width: auto; }
-  * .creText {
-    padding-bottom: 10px;
-    text-emphasis: circle;
-    text-align: center; }
   * .nos {
     margin-top: 50px;
     display: flex;
     padding: 10px; }
-  * .nosText h2 {
-    padding-bottom: 10px;
-    text-emphasis: circle; }
   * .fraseFrida {
     font-style: italic; }
-  * .nosBot {
-    text-align: right;
-    padding-bottom: 10px;
-    text-decoration: none;
-    background-color: #673F5B;
-    color: #DAF7A6;
-    padding: 3px;
-    border-radius: 4px;
-    line-height: 50px; }
-    * .nosBot:hover {
-      color: #DAF7A6;
-      font-weight: bold;
-      background-color: #581845; }
-  * .escuelaText h2 {
-    padding-bottom: 10px;
-    text-emphasis: circle; }
-  * .escuelaBot {
-    text-align: right;
-    padding-bottom: 10px;
-    text-decoration: none;
-    background-color: #673F5B;
-    color: #DAF7A6;
-    padding: 3px;
-    border-radius: 4px;
-    line-height: 50px; }
-    * .escuelaBot:hover {
-      color: #DAF7A6;
-      font-weight: bold;
-      background-color: #581845; }
   * footer {
     background-color: #581845;
     color: #DAF7A6;
@@ -102,9 +96,6 @@
   * .footRedes {
     padding-right: 40px;
     margin: 10px; }
-  * .contMain h2 {
-    text-align: center;
-    margin: 5px; }
   * .contWhat {
     display: flex;
     align-self: center;
@@ -127,9 +118,8 @@
     margin: 5px; }
   * .contForm {
     background-color: #d1bcca;
-    width: 60%;
-    border-radius: 10px; }
-  * .contInfo {
+    border-radius: 10px;
+    display: flex;
     justify-content: center; }
   * .contInfo label {
     padding: 3px; }
@@ -138,16 +128,11 @@
     height: 70px;
     justify-content: center;
     margin: 10px; }
-  * .inicioContForm {
-    justify-content: center; }
   * .contBot input:hover {
     background-color: #b49bac;
     border: none; }
   * .form-floating {
     width: 80%; }
-  * .escuMain h2 {
-    text-align: center;
-    text-emphasis: circle; }
   * .escuCont {
     margin: 10px;
     padding: 10px; }
@@ -172,18 +157,14 @@
   * .escuBot input:hover {
     background-color: #b49bac;
     border: none; }
-  * .prodMain h2 {
-    text-align: center;
-    margin-bottom: 10px;
-    text-emphasis: circle; }
   * .prodCont h2 {
     text-align: left;
     margin-top: 40px; }
-  * .btn {
+  * .btn, * .btn-link, * .btn-shop, * .btn-submit {
     background-color: #673F5B;
     color: #DAF7A6;
     border: none; }
-  * .btn:hover {
+  * .btn:hover, * .btn-link:hover, * .btn-shop:hover, * .btn-submit:hover {
     background-color: #836a7b; }
   * .prodMain h5 {
     text-align: center;
@@ -192,12 +173,7 @@
     text-decoration: none;
     color: #581845;
     font-weight: bold; }
-  * .nosMain h2 {
-    text-align: center;
-    text-emphasis: circle; }
   @media (min-width: 992px) {
-    * .nosMain h2 {
-      justify-content: center; }
     * .nosMain p {
       margin: 20px; }
     * .nosPres {

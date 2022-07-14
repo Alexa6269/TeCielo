@@ -1,6 +1,7 @@
-
 *{
     @import "variables.scss";
+    @import "texto";
+    @import "btn.scss";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,61 +43,16 @@
     background-color:$colorPrincipal;
     width: auto;
 }
-.creText{
-    padding-bottom: 10px;
-    text-emphasis: circle;
-    text-align: center;
-}
+
+    
 .nos{
     margin-top: 50px;
     display: flex;
     padding: 10px;
     }
 
-.nosText h2{
-    padding-bottom: 10px;
-    text-emphasis: circle;
-}
 .fraseFrida{
     font-style: italic;
-}
-
-.nosBot {
-    text-align: right;
-    padding-bottom: 10px;
-    text-decoration: none;
-    background-color:$colorBtn;
-    color: #DAF7A6;
-    padding: 3px;
-    border-radius: 4px;
-    line-height: 50px;
-    &:hover{
-        color: #DAF7A6;
-        font-weight: bold;
-        background-color: $colorPrincipal
-    }
-}
-
-
-.escuelaText h2{
-    padding-bottom: 10px;
-    text-emphasis: circle;
-}
-
-.escuelaBot {
-    text-align: right;
-    padding-bottom: 10px;
-    text-decoration: none;
-    background-color:$colorBtn;
-    color: #DAF7A6;
-    padding: 3px;
-    border-radius: 4px;
-    line-height: 50px;
-    &:hover{
-        color: #DAF7A6;
-        font-weight: bold;
-        background-color: $colorPrincipal
-    }
 }
 /*Footer*/
 footer{
@@ -131,10 +87,6 @@ footer a{
     margin: 10px;}
 
 /* Contactenos*/
-.contMain h2{
-    text-align: center;
-    margin: 5px;
-}
 .contWhat{
     display: flex;
     align-self: center; 
@@ -161,13 +113,12 @@ footer a{
     align-self: center;
     margin: 5px;}
 .contForm {
-    background-color: #d1bcca;
-    width: 60%;
+    background-color: #d1bcca; 
     border-radius: 10px;
-   }
-.contInfo{
+    display: flex;
     justify-content: center;
-}
+   }
+
 .contInfo label{
     padding: 3px;
 }
@@ -178,11 +129,8 @@ footer a{
     height: 70px;
     justify-content: center;
     margin: 10px;
+}
 
-}
-.inicioContForm{
-    justify-content: center;
-}
 .contBot input:hover{
     background-color: #b49bac;
     border: none;
@@ -193,10 +141,6 @@ footer a{
 }
 /*Escuela*/
 
-.escuMain h2{
-    text-align: center;
-    text-emphasis: circle;
-}
 .escuCont{
     margin: 10px;
     padding: 10px;
@@ -231,13 +175,6 @@ footer a{
         border: none;
 }
 /*Productos*/
-
-.prodMain h2{
-    text-align: center;
-    margin-bottom: 10px;
-    text-emphasis: circle;
-
-}
 .prodCont h2{
     text-align: left;
     margin-top: 40px;
@@ -250,6 +187,7 @@ footer a{
 .btn:hover{
     background-color: #836a7b;
 }
+
 .prodMain h5{
     text-align: center;
     font-style: italic;
@@ -263,17 +201,10 @@ footer a{
 
 /*Nosotros*/
 
-.nosMain h2{
-    text-align: center;
-    text-emphasis: circle;
-}
 
 /* Responsive*/
     @media (min-width: 992px){
            
-            .nosMain h2{
-            justify-content: center;
-                }
         .nosMain p{
             margin: 20px;
         }
@@ -305,6 +236,6 @@ footer a{
     .contMail img{
         width: 5%;
         margin-left: 5px;
+        }
     }
 }
-}    
