@@ -5,14 +5,14 @@ $colorBtn:#673F5B;
 $btnColores:(
     link:$colorBtn,
     shop:$colorBtn,
-    submit:#fde9a7,
+    submit:$colorBtn,
 ); 
 $btnProp:(
     pad: 5px,
     borde:0,
     radio:5px,
     textdec:none,
-    text-align: right,
+    text-align: center,
     text-decoration: none,
     negrita: 50px,
     );

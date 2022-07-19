@@ -10,8 +10,8 @@
 
 /*Header*/
 .navbar{
-    background-color: #ffffff;
-    border-bottom: 3px solid $colorPrincipal;
+ 
+    border-bottom: 2px solid $colorLetra;
     ul li {
         padding: 0;
         list-style: none;  
@@ -56,35 +56,28 @@
 }
 /*Footer*/
 footer{
-    background-color: $colorPrincipal;
-    color: #DAF7A6;
-    display: flex;
-    justify-content: space-between;
+   
+    border-top: 2px solid $colorPrincipal;
+    color: $colorPrincipal;
+
+    ul{
+        list-style: none;
+        margin: 10px;
+        li{ 
+            padding-left: 10px;
+                }
 }
-footer ul{
-    flex-direction: column;
-    list-style: none;
-    margin: 10px;
-    li{ 
-        padding-left: 10px;
-            }
-}
-footer a{
+    a{
     text-decoration: none;
-    color: #DAF7A6;
+    color: $colorLetra;
     &:hover{
-        background-color: #836a7b;
-        color: #DAF7A6;
+        color: $colorPrincipal;
         font-weight: bold;
         }
     }
-.footAct{
-    margin: 10px;
-    color: #DAF7A6;
-}
-.footRedes{
-    padding-right: 40px;
-    margin: 10px;}
+ 
+    }
+
 
 /* Contactenos*/
 .contWhat{
@@ -162,18 +155,6 @@ footer a{
     background-color: #d1bcca;
     width: 75%;
     border-radius: 10px;}
-
-.escuBot{
-    margin-top: 10px;
-}
-.escuBot input{
-    margin-left: 5px;
-
-}
-.escuBot input:hover{
-        background-color: #b49bac;
-        border: none;
-}
 /*Productos*/
 .prodCont h2{
     text-align: left;

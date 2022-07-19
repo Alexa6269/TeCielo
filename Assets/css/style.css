@@ -21,7 +21,7 @@
     padding: 5px;
     border: 0;
     border-radius: 5px;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     font-weight: 50px; }
   * .btn-link {
@@ -37,14 +37,13 @@
       font-weight: bold;
       background-color: #581845; }
   * .btn-submit {
-    background-color: #fde9a7; }
+    background-color: #673F5B; }
     * .btn-submit:hover {
       color: #DAF7A6;
       font-weight: bold;
       background-color: #581845; }
   * .navbar {
-    background-color: #ffffff;
-    border-bottom: 3px solid #581845; }
+    border-bottom: 2px solid #900C3F; }
     * .navbar ul li {
       padding: 0;
       list-style: none;
@@ -73,29 +72,19 @@
   * .fraseFrida {
     font-style: italic; }
   * footer {
-    background-color: #581845;
-    color: #DAF7A6;
-    display: flex;
-    justify-content: space-between; }
-  * footer ul {
-    flex-direction: column;
-    list-style: none;
-    margin: 10px; }
-    * footer ul li {
-      padding-left: 10px; }
-  * footer a {
-    text-decoration: none;
-    color: #DAF7A6; }
-    * footer a:hover {
-      background-color: #836a7b;
-      color: #DAF7A6;
-      font-weight: bold; }
-  * .footAct {
-    margin: 10px;
-    color: #DAF7A6; }
-  * .footRedes {
-    padding-right: 40px;
-    margin: 10px; }
+    border-top: 2px solid #581845;
+    color: #581845; }
+    * footer ul {
+      list-style: none;
+      margin: 10px; }
+      * footer ul li {
+        padding-left: 10px; }
+    * footer a {
+      text-decoration: none;
+      color: #900C3F; }
+      * footer a:hover {
+        color: #581845;
+        font-weight: bold; }
   * .contWhat {
     display: flex;
     align-self: center;
@@ -150,13 +139,6 @@
     background-color: #d1bcca;
     width: 75%;
     border-radius: 10px; }
-  * .escuBot {
-    margin-top: 10px; }
-  * .escuBot input {
-    margin-left: 5px; }
-  * .escuBot input:hover {
-    background-color: #b49bac;
-    border: none; }
   * .prodCont h2 {
     text-align: left;
     margin-top: 40px; }
